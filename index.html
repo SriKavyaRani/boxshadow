@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: flex;
+            justify-content: space-between;
+            gap: 1px;
+            margin: 20px;
+        }
+
+        .hed1 {
+            text-align: center;
+            box-shadow: 2px 2px 9px rgb(65, 25, 136);
+            color: green;
+        }
+
+        .box1, .box2, .box3, .box4, 
+        .box5, .box6, .box7, .box8, 
+        .box9, .box10, .box11, .box12 {
+            width: 200px;
+            height: 200px;
+            display: flex; /* Enables flexbox */
+            align-items: center; /* Centers content vertically */
+            justify-content: center; /* Centers content horizontally */
+            text-shadow: -1px 0 rgb(217, 26, 26), 
+                         0 1px rgb(28, 219, 47), 
+                         1px 0 rgb(87, 36, 180), 
+                         0 -1px rgb(54, 79, 199);
+        }
+
+        .box1 { box-shadow: 2px 2px 9px red; }
+        .box2 { box-shadow: 2px 2px 10px rgb(42, 156, 166); }
+        .box3 { box-shadow: 2px 2px 10px rgb(146, 201, 19); }
+        .box4 { box-shadow: 2px 2px 10px rgb(22, 10, 190); }
+        .box5 { box-shadow: 2px 2px 10px rgb(158, 26, 219); }
+        .box6 { box-shadow: 2px 2px 10px rgb(27, 201, 38); }
+        .box7 { box-shadow: 2px 2px 10px rgb(28, 171, 210); }
+        .box8 { box-shadow: 2px 2px 10px rgb(216, 27, 200); }
+        .box9 { box-shadow: 2px 2px 4px 5px rgb(165, 31, 218); }
+        .box10 { box-shadow: 2px 2px 4px 5px rgb(101, 9, 9); }
+        .box11 { box-shadow: 2px 2px 4px 5px rgb(49, 100, 210); }
+        .box12 { box-shadow: 2px 2px 4px 5px rgb(168, 173, 18); }
+    </style>
+</head>
+<body>
+
+    <h2 class="hed1">Box Shadow</h2>
+    <div class="parent">
+        <div class="box1"><p>Box 1</p></div>
+        <div class="box2"><p>Box 2</p></div>
+        <div class="box3"><p>Box 3</p></div>
+        <div class="box4"><p>Box 4</p></div>
+    </div>
+    <div class="parent">
+        <div class="box5"><p>Box 5</p></div>
+        <div class="box6"><p>Box 6</p></div>
+        <div class="box7"><p>Box 7</p></div>
+        <div class="box8"><p>Box 8</p></div>
+    </div>
+    <div class="parent">
+        <div class="box9"><p>Box 9</p></div>
+        <div class="box10"><p>Box 10</p></div>
+        <div class="box11"><p>Box 11</p></div>
+        <div class="box12"><p>Box 12</p></div>
+    </div>
+
+</body>
+</html>
